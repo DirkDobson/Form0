@@ -18,14 +18,18 @@ h2 {
   color: white;
 }
 
+p {
+  color: white;
+}
+
 .side {
   width: 3em;
-  height: 5em;
+  height: 20em;
   background-color: turquoise;
 }
 
 #center {
-  width: 75%;
+  width: 100%;
   background-color: black
 }
 
@@ -33,4 +37,5 @@ h2 {
   display: flex;
   flex-direction: row; 
   justify-content: space-between;
+  height: 100%;
 }

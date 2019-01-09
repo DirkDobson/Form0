@@ -20,11 +20,17 @@ h2 {
 
 p {
   color: white;
+  text-align: center;
+  padding: 5em;
+}
+
+form {
+  text-align: center;
 }
 
 .side {
   width: 3em;
-  height: 20em;
+  height: 50em;
   background-color: turquoise;
 }
 
@@ -38,4 +44,10 @@ p {
   flex-direction: row; 
   justify-content: space-between;
   height: 100%;
+}
+
+#bottom {
+  height: 3em;
+  width: 100em;
+  background-color: turquoise;
 }
